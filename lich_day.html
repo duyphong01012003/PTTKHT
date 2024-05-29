@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch giảng dạy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lịch giảng dạy</h1>
+        </header>
+        <main>
+            <div class="left-bar">
+                <ul class="menu">
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="#">Quản lý học sinh</a>
+                        <ul>
+                            <li><a href="./list.html">Danh sách học sinh</a></li>
+                            <li><a href="./profile.html">Hồ sơ học sinh</a></li>
+                            <li><a href="./point_rank.html">Điểm số, xếp loại</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Quản lý giáo viên</a>
+                        <ul>
+                            <li><a href="#">Danh sách giáo viên</a></li>
+                            <li><a href="#">Hồ sơ giáo viên</a></li>
+                            <li><a href="./lich_day.html">Lịch giảng dạy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Quản lý lớp học</a>
+                        <ul>
+                            <li><a href="#">Danh sách lớp học</a></li>
+                            <li><a href="./lich_hoc.html">Lịch học</a></li>
+                            <li><a href="#">Điểm số, xếp loại</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2>Chọn giáo viên, ngày</h2>
+                    <select name="giaovien">
+                        <option value="all">Giáo viên</option>
+                        <option value="GV01">Phạm Văn Đồng</option>
+                        <option value="GV02">Nguyễn Thùy Dương</option>
+                    </select>
+                    <input type="date" name="ngay">
+                    <button type="submit">Xem lịch</button>
+                </form>
+                <table class="lich-giang-day">
+                    <thead>
+                        <tr>
+                            <th>Thứ</th>
+                            <th>Tiết 1 (7:15 - 8:00)</th>
+                            <th>Tiết 2 (8:00 - 8:45)</th>
+                            <th>Tiết 3 (9:00 - 9:45)</th>
+                            <th>Tiết 4 (9:45 - 10:30)</th>
+                            <th>Tiết 5 (13:30 - 14:30)</th>
+                            <th>Tiết 6 (14:30 - 15:15)</th>
+                            <th>Tiết 7 (15:30 - 16:15)</th>
+                            <th>Tiết 8 (16:15 - 17:00)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <td>Thứ 2</td>
+                        <td>Chào cờ</td>
+                        <td colspan="2">Toán (Lớp 4A)</td>
+                        <td></td>
+                        <td colspan="2">Toán (Lớp 4B) </td>
+                        <td colspan="2">Toán (Lớp 2B)</td>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <p>2024 Trường tiểu học Nhóm 5</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

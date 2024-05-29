@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điểm số và xếp loại</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Logo_Truong_Dai_hoc_Mo_-_Dia_chat.jpg/900px-Logo_Truong_Dai_hoc_Mo_-_Dia_chat.jpg" alt="" style="border-radius: 100%; width:10%">
+            <h1>Quản lý điểm số và xếp loại</h1>
+        </header>
+        <main>
+            <div class="left-bar">
+                <ul class="menu">
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="#">Quản lý học sinh</a>
+                        <ul>
+                            <li><a href="./list.html">Danh sách học sinh</a></li>
+                            <li><a href="./profile.html">Hồ sơ học sinh</a></li>
+                            <li><a href="./point_rank.html">Điểm số, xếp loại</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Quản lý giáo viên</a>
+                        <ul>
+                            <li><a href="#">Danh sách giáo viên</a></li>
+                            <li><a href="#">Hồ sơ giáo viên</a></li>
+                            <li><a href="./lich_day.html">Lịch giảng dạy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Quản lý lớp học</a>
+                        <ul>
+                            <li><a href="#">Danh sách lớp học</a></li>
+                            <li><a href="./lich_hoc.html">Lịch học</a></li>
+                            <li><a href="#">Điểm số, xếp loại</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+            </div>
+            <div class="content">
+                <h2>Chọn học kỳ, môn học</h2>
+                <form action="#" method="post">
+                    <select name="hocki">
+                        <option value="1">Học kỳ 1</option>
+                        <option value="2">Học kỳ 2</option>
+                    </select>
+                    <select name="lop">
+                        <option value="4A">Lớp 4A</option>
+                        <option value="4B">Lớp 4B</option>
+                    </select>
+                    <select name="monhoc">
+                        <option value="all">Tất cả các môn</option>
+                        <option value="toan">Toán</option>
+                        <option value="tiengviet">Tiếng Việt</option>
+                        <option value="khoahoc">Khoa học</option>
+                        <option value="lichsu">Lịch sử</option>
+                        </select>
+                    <button type="submit">Xem điểm</button>
+                </form>
+                <table class="diem-so">
+                    <thead>
+                        <tr>
+                            <th>Họ và tên</th>
+                            <th>Điểm</th>
+                            <th>Xếp loại</th>
+                        </tr>
+                        <tr>
+                            <td>Phạm Mạnh Cầm</td>
+                            <td>9</td>
+                            <td>Giỏi</td>
+                        </tr>
+                        <tr>
+                            <td>Nguyễn Ngọc Hoàn</td>
+                            <td>7</td>
+                            <td>Khá</td>
+                        </tr>
+                        <tr>
+                            <td>Phạm Duy Phong</td>
+                            <td>5</td>
+                            <td>TB</td>
+                        </tr>
+                        <tr>
+                            <td>Trần Đức Vương</td>
+                            <td>2</td>
+                            <td>Yếu</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <p>2024 Trường tiểu học Nhóm 5</p>
+        </footer>
+    </div>
+</body>
+</html>

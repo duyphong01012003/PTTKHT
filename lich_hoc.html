@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch học</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lịch học</h1>
+        </header>
+        <main>
+            <div class="left-bar">
+                <ul class="menu">
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="#">Quản lý học sinh</a>
+                        <ul>
+                            <li><a href="./list.html">Danh sách học sinh</a></li>
+                            <li><a href="./profile.html">Hồ sơ học sinh</a></li>
+                            <li><a href="./point_rank.html">Điểm số, xếp loại</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Quản lý giáo viên</a>
+                        <ul>
+                            <li><a href="#">Danh sách giáo viên</a></li>
+                            <li><a href="#">Hồ sơ giáo viên</a></li>
+                            <li><a href="./lich_day.html">Lịch giảng dạy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Quản lý lớp học</a>
+                        <ul>
+                            <li><a href="#">Danh sách lớp học</a></li>
+                            <li><a href="./lich_hoc.html">Lịch học</a></li>
+                            <li><a href="#">Điểm số, xếp loại</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2>Chọn lớp học, tuần</h2>
+                <form action="#">
+                    <select name="lophoc">
+                        <option value="all">Lớp</option>
+                        <option value="lop4A">Lớp 4A</option>
+                        <option value="lop4B">Lớp 4B</option>
+                    </select>
+                    <input type="date" name="ngay">
+                    <button type="submit">Xem lịch</button>
+                </form>
+                <table class="lich-hoc">
+                    <thead>
+                        <tr>
+                            <th>Thứ</th>
+                            <th>Tiết 1 (7:15 - 8:00)</th>
+                            <th>Tiết 2 (8:00 - 8:45)</th>
+                            <th>Tiết 3 (9:00 - 9:45)</th>
+                            <th>Tiết 4 (9:45 - 10:30)</th>
+                            <th>Tiết 5 (13:30 - 14:30)</th>
+                            <th>Tiết 6 (14:30 - 15:15)</th>
+                            <th>Tiết 7 (15:30 - 16:15)</th>
+                            <th>Tiết 8 (16:15 - 17:00)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Thứ 2</td>
+                            <td>Chào cờ</td>
+                            <td>Toán</td>
+                            <td>Toán</td>
+                            <td>Đạo đức</td>
+                            <td>Tiếng anh</td>
+                            <td>Tiếng anh</td>
+                            <td>Âm nhạc</td>
+                            <td>Mĩ thuật</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <p>2024 Trường tiểu học Nhóm 5</p>
+        </footer>
+    </div>
+</body>
+</html>

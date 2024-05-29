@@ -1,0 +1,258 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(191, 248, 229);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 33%;
+}
+
+main {
+    display: flex;
+}
+
+.left-bar {
+    width: 250px;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.left-bar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-bar ul li {
+    margin-bottom: 10px;
+}
+
+.left-bar ul li a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.left-bar ul li ul {
+    display: none;
+    margin-left: 20px;
+}
+
+.left-bar ul li:hover ul {
+    display: block;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content ul {
+    list-style: disc;
+    padding: 0;
+}
+
+.content ul li {
+    margin-bottom: 5px;
+}
+
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.content table th,
+.content table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+
+.content .news-item {
+    margin-bottom: 15px;
+}
+
+.content .news-item img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content .news-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content .news-item p {
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
+.diem-so {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.diem-so th, .diem-so td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+.danh-sach-hoc-sinh {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.danh-sach-hoc-sinh th,
+.danh-sach-hoc-sinh td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+
+.danh-sach-hoc-sinh img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a.active {
+    background-color: #eee;
+}
+
+.profile-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.profile-info .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info .avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info .info {
+    flex: 1;
+}
+
+.profile-info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    margin-bottom: 0;
+}
+
+.nav-tabs {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.nav-tabs li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-tabs a {
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-tabs a.active {
+    background-color: #eee;
+}
+
+.tab-content {
+    padding: 20px;
+}
+
+.tab-pane {
+    display: none;
+}
+
+.tab-pane.active {
+    display: block;
+}
+.lich-hoc {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.lich-hoc th,
+.lich-hoc td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+.lich-giang-day {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.lich-giang-day th,
+.lich-giang-day td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
